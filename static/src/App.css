@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: justify;
+}
+
+.home,
+.web-products,
+.marketing,
+.restaurant-demo {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.web-products {
+  background-image: url('/images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.marketing {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('/images/img-8.jpg');
+  height: 70vh;
+  align-items: flex-start;
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 300%;
+}
+.announcement-head {
+  text-align: center;
+  background-color: #242424;
+  color: #28f9ff;
+  font-size: 160%;
+}
+.announcement-info {
+  text-align: center;
+  background-color: #242424;
+  color: #fff;
+  font-size: 40px;
+}
+
+.restaurant-demo {
+  background-image: url('/images/restaurantdemo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+p{
+  text-align: center;
+}
+
+a{
+  margin: 1px;
+  /* display:flex; */
+}
